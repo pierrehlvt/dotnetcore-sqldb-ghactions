@@ -2,7 +2,7 @@ name: Create Azure Resources
 on:
   push:
     paths:
-      - 'ARM/**'
+      - 'templates/**'
       - '.github/workflows/infraworkflow.yml'
 
 env:
