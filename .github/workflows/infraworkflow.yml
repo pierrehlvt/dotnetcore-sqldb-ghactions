@@ -7,11 +7,11 @@ on:
 
 env:
   AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID  }}    # set this to your Azure Subscription Id
-  AZURE_RESOURCEGROUP_NAME: nfs-alex-crbs-2022                    # set this to your preferred resource group name
-  AZURE_WEBAPP_NAME: nfs-alex-crbs-12102022                         # set this to your preferred web app name
-  ASP_NAME: nfs-alex-crbs-12102022
-  SQLSERVER_NAME: nfs-alex-crbs-12102022-srv                          # set this to your preferred sql server name
-  DATABASE_NAME: nfs-alex-crbs-12102022-db                   # set this to your preferred sql database name
+  AZURE_RESOURCEGROUP_NAME: pierre-nfs-2022                    # set this to your preferred resource group name
+  AZURE_WEBAPP_NAME: pierre-nfs-12102022                         # set this to your preferred web app name
+  ASP_NAME: pierre-nfs-12102022
+  SQLSERVER_NAME: pierre-nfs-12102022-srv                          # set this to your preferred sql server name
+  DATABASE_NAME: pierre-nfs-12102022-db                   # set this to your preferred sql database name
   SQLADMIN_LOGIN: ${{ secrets.SQLADMIN_LOGIN  }}                # Create a secret in your Github repo for the SQL Admin login name you want to use
   SQLADMIN_PASS: ${{ secrets.SQLADMIN_PASS  }}                 # Create a secret in your Github repo for the SQL Admin password you want to use
 
